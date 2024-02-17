@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center p-3 max-w-6xl mx-auto">
       <div className="flex gap-4">
-        <MenuItem title="home" address="/" Icon={AiFillHome} />
-        <MenuItem title="about" address="/about" Icon={BsFillInfoCircleFill} />
+        <MenuItem title="home" Address="/" Icon={AiFillHome} />
+        <MenuItem title="about" Address='/about' Icon={BsFillInfoCircleFill} />
       </div>
       <div className="flex gap-2 items-center">
       <DarkMode/>
