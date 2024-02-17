@@ -17,7 +17,7 @@ export default async function Home({ searchParms }) {
     throw new Error("Failed");
   }
   const results = data.results;
-  console.log(results);
+
   return (
     <div>
       <Results reslts={results} />
