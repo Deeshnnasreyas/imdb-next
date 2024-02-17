@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default async function Moviepage({ params }) {
   const movieId = params.id;
 
@@ -17,6 +17,7 @@ export default async function Moviepage({ params }) {
           }`}
           width={500}
           height={300}
+          alt="images"
           className="rounded-lg"
           style={{maxWidth:"100%",height:'100%'}}
         ></Image>
